@@ -144,4 +144,26 @@ io.on("connection",(socket)=>{
 server.listen(3000,()=>console.log("Server läuft auf Port 3000"));
 node server.js
 npx expo start
+hobby-backend/
+├─ server.js
+├─ package.json
+├─ uploads/
+cd hobby-backend
+npm install
+node server.js
+HobbyFinderApp/
+├─ App.js
+├─ package.json
+├─ services/
+│   ├─ api.js
+│   └─ socket.js
+├─ components/
+│   ├─ LoginScreen.js
+│   ├─ RegisterScreen.js
+│   ├─ GroupListScreen.js
+│   ├─ ChatScreen.js
+│   ├─ ProfileScreen.js
+cd HobbyFinderApp
+npm install
+npx expo start
 
